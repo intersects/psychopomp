@@ -1,0 +1,7 @@
+Header set Cross-Origin-Opener-Policy "same-origin"
+Header set Cross-Origin-Embedder-Policy "require-corp"
+
+Header always set Access-Control-Allow-Origin "*"
+Header always set Access-Control-Allow-Headers "Content-Type"
+
+Header set Cross-Origin-Resource-Policy "same-origin"
